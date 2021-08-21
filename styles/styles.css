@@ -498,6 +498,10 @@ footer .footer__contact {
   padding: 4rem 1rem 2rem;
 }
 
+footer .footer__contact .contact__text {
+  font-weight: bold;
+}
+
 footer .footer__contact .contact__text p {
   color: #fff;
   text-transform: uppercase;
@@ -507,7 +511,6 @@ footer .footer__contact .contact__text p {
 
 footer .footer__contact .contact__text h2 {
   padding: 0.5rem 0 1rem;
-  font-weight: 400;
 }
 
 footer .footer__contact .contact__form {
@@ -749,6 +752,9 @@ footer .attribution a {
 }
 
 @media screen and (min-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
   header .nav {
     padding: 3rem 10rem;
   }

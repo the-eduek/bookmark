@@ -392,7 +392,8 @@ footer {
         background-color: $softBlue;
         text-align: center;
         padding: 4rem 1rem 2rem;
-        .contact__text {
+        .contact__text {            
+            font-weight: bold;
             p {
                 color: #fff;
                 text-transform: uppercase;
@@ -402,7 +403,6 @@ footer {
 
             h2 {
                 padding: 0.5rem 0 1rem;
-                font-weight: 400;
             }
         }
 
@@ -640,6 +640,10 @@ footer {
 
     // --> Laptops
 @media screen and (min-width: 1024px) {
+    html {
+        font-size: 18px;
+    }
+
     header {        
         .nav {
             padding: 3rem 10rem;
